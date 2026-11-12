@@ -1,0 +1,18 @@
+[
+  {
+    "rule": "hsts",
+    "message": "Review HSTS: max-age is missing or below the project policy of 31536000 seconds."
+  },
+  {
+    "rule": "csp_script",
+    "message": "Script policy contains unsafe-inline or a wildcard; review application needs."
+  },
+  {
+    "rule": "framing",
+    "message": "No recognized frame restriction found."
+  },
+  {
+    "rule": "referrer",
+    "message": "Review missing or permissive Referrer-Policy."
+  }
+]
